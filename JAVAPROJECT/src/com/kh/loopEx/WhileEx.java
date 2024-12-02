@@ -36,7 +36,8 @@ public class WhileEx {
             System.out.print("-----반복시작----");
 
             if(input != -1) sum += input; //-1이 입력된 경우 제외
-
+            //입력한 값 갱신을 위해 설정하는 input
+            //input = new Scanner(System.in).nextInt();
         }
         System.out.println("합계: "+sum);
     }
