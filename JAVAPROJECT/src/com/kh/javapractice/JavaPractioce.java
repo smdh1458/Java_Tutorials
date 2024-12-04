@@ -133,7 +133,7 @@ public class JavaPractioce {
         jp.method3();
         System.out.println("====파일안에 있는 숫자 더하고, 더한 숫자 result.txt 저장하기====");
         jp.method5();
-        bank.setAccountNumber(123456789);
+        //bank.setAccountNumber(123456789);
         bank.setBalance(100);
         System.out.println("====계산기 실행하기====");
         jp.method7();
