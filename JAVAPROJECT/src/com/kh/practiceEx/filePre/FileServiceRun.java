@@ -11,5 +11,13 @@ public class FileServiceRun {
         //createFile 기능 호출 자료형 없는 매개변수명으로 파일 작성내용 넣어주기
         String content = "\n피자 \n치킨 \n초밥 \n파스타";
         fileService.createFile(content);
+
+
+        fileService.readFile();
+
+        String content2 = "\n - 햄버거 \n- 돈까스 \n - 쌀국수 \n- 카레";
+        fileService.appendToFile(content2);
+
+        fileService.readFile();
     }
 }
