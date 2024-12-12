@@ -42,6 +42,7 @@ public class Member {
     public void setPassword(String password) {
         this.password = password;
     }
+
     public boolean login(String inputId, String inputPassword) {
         if (inputId.equals(id) && inputPassword.equals(password)) {
             return true;

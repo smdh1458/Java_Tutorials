@@ -203,7 +203,7 @@ public class ArrayPre {
         // 각 배열 내 행 주소 값 출력
         System.out.println(Arrays.toString(lunchMenu));
 
-        //deepToSTring은 2차원 이상의 배열 내 존재하는 값을 출력
+        //deepToString은 2차원 이상의 배열 내 존재하는 값을 출력
         System.out.println(Arrays.deepToString(lunchMenu));
     }
     //main 메서드
